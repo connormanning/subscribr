@@ -1,0 +1,40 @@
+extends layout
+
+block content
+    .pane
+        #titlebar
+            .row
+                .col-xs-2
+                    a(href='/')
+                        #logo
+                            img(src='/images/logo.svg')
+                .col-xs-10.subscribr
+                    .logoAlignRight
+                        a(href='/')
+                            h1 subscribr.
+
+        br
+        br
+
+        #sub.center
+            div(ng-app="demoApp")
+                div(ng-controller="demoController")
+                    .row
+                        #tableHeader
+                            .col-xs-4
+                                | <p><strong>Name</strong></p>
+                            .col-xs-4
+                                | <p><strong>Cost</strong></p>
+                            .col-xs-4
+                                | <p><strong>Due</strong></p>
+                        br
+                        br
+                    div(ng-repeat="entry in entries")
+                        .row
+                            .col-xs-4
+                                p {{entry.name}}
+                            .col-xs-4
+                                p ${{entry.price}}
+                            .col-xs-4
+                                p {{entry.date}}
+

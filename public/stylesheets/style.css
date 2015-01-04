@@ -1,0 +1,225 @@
+body {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    /*
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    */
+
+    background: url("../images/background.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin: 8px 8px 8px 8px;
+}
+
+p,
+#sub p,
+#sub h2,
+#emailForm input,
+#titlebar h1,
+#sub #bigLogo h1,
+#sub #topTag h1
+{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+#topTag {
+    padding-bottom: 90px;
+}
+
+#bigLogo {
+    color: #90D1C1;
+}
+
+#bigLogo h1 {
+    font-size: 80px;
+}
+
+.pane {
+    /* position: relative;*/
+    height: 100vh;
+    /*border-bottom: 1px solid #90D1C1;*/
+}
+
+#sub #bottomInfo {
+    /*
+    position: absolute;
+    bottom: 0;
+    */
+    left: auto;
+    right: auto;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 20px;
+    /* padding-bottom: 80px;*/
+    color: #CCC;
+    opacity: .9;
+}
+
+#tableHeader {
+}
+
+#titlebar {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    width: 100%;
+    /* background: #414042; */
+    background: #202020;
+    border-bottom: 1px solid #90D1C1;
+    /*opacity: .9;*/
+}
+
+img {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 0;
+}
+
+/*
+h1 {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: center;
+    background: #414042;
+}
+*/
+
+#titlebar a {
+    color: #90D1C1;
+    text-decoration: none;
+}
+
+#titlebar a:hover {
+    color: #90D1C1;
+    text-decoration: none;
+}
+
+#thankYou h2 {
+    color: #CCC;
+    opacity: .9;
+}
+
+.subscribr {
+    color: #90D1C1;
+}
+
+.logoAlignRight {
+    /*
+    text-align: right;
+    */
+    margin-right: 12px;
+    float: right;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.logoAlignRight h1 {
+    font-size: 42px;
+}
+
+p {
+    color: #CCC;
+    opacity: .9;
+    /* font-size: 30px;*/
+}
+
+#button {
+    /* background: #414042; */
+    background: #90D1C1;
+    color: black;
+    opacity: 1;
+}
+
+#sub #bottomInfo #bigLogo #button {
+    text-color: black;
+    opacity: 1;
+}
+
+.center
+{
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+#sub {
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 20px;
+    /* padding-bottom: 80px;*/
+    color: #CCC;
+    opacity: .9;
+}
+
+#bigText {
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 20px;
+    /* padding-bottom: 80px;*/
+    color: #CCC;
+    opacity: .9;
+}
+
+#emailForm {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#thankYou {
+    padding-top: 80px;
+}
+
+#sub p {
+    font-size: 20px;
+}
+
+form p {
+    font-size: 20px;
+}
+
+input {
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 400px;
+    border: 1px solid #ccc;
+    padding-left:  4px;
+    padding-right: 7px;
+    margin-bottom: 20px;
+    background: #DDD;
+    opacity: .8;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    -moz-box-shadow: 1px 1px 1px #AAA;
+    -webkit-box-shadow: 1px 1px 1px #AAA;
+    box-shadow: 1px 1px 1px #AAA;
+
+    font-size: 30px;
+
+    /* with a big radius/font there needs to be padding left and right
+    * otherwise the text is too close to the radius.
+    * on a smaller radius/font it may not be necessary
+    */
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+input:focus {
+    border-color: #90D1C1;
+    color: black;
+}
+
